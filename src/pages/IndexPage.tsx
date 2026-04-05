@@ -77,11 +77,11 @@ export default function IndexPage() {
                               <div data-ux="Block" data-aid="HEADER_SLIDESHOW" className="x-el x-el-div c1-1 c1-2 c1-o c1-p c1-q c1-b c1-c c1-d c1-r c1-e c1-f c1-g">
                                  <div data-ux="Element" id="bs-1" className="x-el x-el-div c1-1 c1-2 c1-s c1-b c1-c c1-d c1-e c1-f c1-g">
                                     <div data-ux="Block" className="x-el x-el-div c1-1 c1-2 c1-s c1-b c1-c c1-d c1-e c1-f c1-g">
-                                       <div className="carousel loaded" style="height:100%;width:100%">
-                                          <div className="carousel-container-inner" style="height:100%;width:100%;margin-bottom:0">
-                                             <div className="carousel-viewport" style="width:100%;height:100%">
-                                                <ul className="carousel-track" style="height:100%">
-                                                   <li style="margin-left:0px;height:100%;width:100%;transition:opacity 1000ms ease-in-out;overflow-y:hidden;min-height:100%;overflow-x:hidden;min-width:100%" data-index="0" className="carousel-slide carousel-slide-selected carousel-slide-fade">
+                                       <div className="carousel loaded" style={{height: '100%', width: '100%'}}>
+                                          <div className="carousel-container-inner" style={{height: '100%', width: '100%', marginBottom: '0'}}>
+                                             <div className="carousel-viewport" style={{width: '100%', height: '100%'}}>
+                                                <ul className="carousel-track" style={{height: '100%'}}>
+                                                   <li style={{marginLeft: '0px', height: '100%', width: '100%', transition: 'opacity 1000ms ease-in-out', overflowY: 'hidden', minHeight: '100%', overflowX: 'hidden', minWidth: '100%'}} data-index="0" className="carousel-slide carousel-slide-selected carousel-slide-fade">
                                                       <div role="img" data-aid="HEADER_SLIDE_0" data-ux="HeaderMediaFillBackground" data-ht="Fill" className="x-el x-el-div c1-1 c1-2 c1-t c1-u c1-v c1-w c1-x c1-y c1-s c1-z c1-10 c1-11 c1-12 c1-b c1-c c1-13 c1-14 c1-15 c1-16 c1-17 c1-18 c1-19 c1-1a c1-1b c1-1c c1-1d c1-1e c1-1f c1-1g c1-1h c1-1i c1-1j c1-1k c1-1l c1-1m c1-1n c1-d c1-1o c1-e c1-f c1-g"></div>
                                                    </li>
                                                 </ul>
@@ -180,17 +180,17 @@ export default function IndexPage() {
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-8h c1-8i c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-e c1-f c1-g">
                                     <div data-ux="ContentBasic" id="5fb00c11-5929-4f0a-8695-428dca83fdf5" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION1_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Rymdhjälten Mira får ett rop på hjälp av sin vän Femman, som bor i ett gruppboende på Skogsplaneten, 550 miljoner kilometer från Jorden. Men Mira är trött på att vara ensam i rymden och behöver sin vän Kalle för att klara den långa resan. Kalle, som alltid drömt om att bli rymdpilot, brottas dock med sin dåliga självkänsla.</span></p>
+                                          <p style={{margin: '0'}}><span>Rymdhjälten Mira får ett rop på hjälp av sin vän Femman, som bor i ett gruppboende på Skogsplaneten, 550 miljoner kilometer från Jorden. Men Mira är trött på att vara ensam i rymden och behöver sin vän Kalle för att klara den långa resan. Kalle, som alltid drömt om att bli rymdpilot, brottas dock med sin dåliga självkänsla.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="ContentBasic" id="4ab6124b-0604-4cc9-a47b-86fe2346ec66" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION2_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Kommer Kalle och hans vänner att följa med Mira på äventyr bland stjärnorna eller stanna kvar på sin Greklandssemester och dricka starköl på den lokala tavernan Peos pub? ”Jorden Anropar” är regissören och manusförfattaren Martin Fallhagens fjärde kortfilm, skriven tillsammans med Tomas Norström. Det blev den sista filmen som Tomas arbetade med innan sin bortgång 2021.</span></p>
+                                          <p style={{margin: '0'}}><span>Kommer Kalle och hans vänner att följa med Mira på äventyr bland stjärnorna eller stanna kvar på sin Greklandssemester och dricka starköl på den lokala tavernan Peos pub? ”Jorden Anropar” är regissören och manusförfattaren Martin Fallhagens fjärde kortfilm, skriven tillsammans med Tomas Norström. Det blev den sista filmen som Tomas arbetade med innan sin bortgång 2021.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="ContentBasic" id="068d6353-d65b-4760-985d-b2acca673db0" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Martin Fallhagen, som har Down syndrom, har med sitt unika perspektiv gjort sig till en erkänd filmskapare då han lyfter och belyser de utmaningar som han och hans grannar upplever till vardags i gruppboendet. ”Jorden Anropar” är en stjärnspäckad äventyrs-scifi på 35 minuter, fylld med mycket hjärta och rymmer både skratt och allvar. Det är en film som inspirerar till att hitta tron på sig själv och att en stöttande omgivning kan bidra till detta. Några av filmens karaktärer känner vi igen från SVT:s ”Tillbaka till Vintergatan”.</span></p>
+                                          <p style={{margin: '0'}}><span>Martin Fallhagen, som har Down syndrom, har med sitt unika perspektiv gjort sig till en erkänd filmskapare då han lyfter och belyser de utmaningar som han och hans grannar upplever till vardags i gruppboendet. ”Jorden Anropar” är en stjärnspäckad äventyrs-scifi på 35 minuter, fylld med mycket hjärta och rymmer både skratt och allvar. Det är en film som inspirerar till att hitta tron på sig själv och att en stöttande omgivning kan bidra till detta. Några av filmens karaktärer känner vi igen från SVT:s ”Tillbaka till Vintergatan”.</span></p>
                                        </div>
                                     </div>
                                  </div>
@@ -215,18 +215,18 @@ export default function IndexPage() {
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-9r c1-4z c1-35 c1-82 c1-37 c1-83 c1-b c1-c c1-86 c1-87 c1-88 c1-89 c1-d c1-9s c1-9t c1-e c1-f c1-g">
                                     <div data-ux="Element" id="bs-2" className="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentBasic" id="068d6353-d65b-4760-985d-b2acca673db0" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                          <div data-ux="ContentText" style="margin:0 auto;" alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                             <p style="margin:10px;"><span>Jorden Anropar går att köpa som DVD eller som digital kopia via länk.</span></p>
+                                          <div data-ux="ContentText" style={{margin: '0 auto'}} alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
+                                             <p style={{margin: '10px'}}><span>Jorden Anropar går att köpa som DVD eller som digital kopia via länk.</span></p>
                                           </div>
                                        </div>
-                                       <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-                                          <div style="margin: 10px">
+                                       <div style={{display: 'flex', justifyContent: 'center', flexWrap: 'wrap'}}>
+                                          <div style={{margin: '10px'}}>
                                        
 
                                           <stripe-buy-button buy-button-id="buy_btn_1PLLNK097byvW02hkGaAi9a4" publishable-key="pk_live_51PIr4z097byvW02hYvwoLRi6TNC9wwMX4pdUJGCoy9oGQmaV21raZZgVl0W74AbDpq5buNjwOXH99MORJTVXHKik000gqR2l3P">
                                           </stripe-buy-button>
                                        </div>
-                                       <div style="margin: 10px">
+                                       <div style={{margin: '10px'}}>
                                           
 
                                           <stripe-buy-button buy-button-id="buy_btn_1PLLI0097byvW02h5oGX9BSR" publishable-key="pk_live_51PIr4z097byvW02hYvwoLRi6TNC9wwMX4pdUJGCoy9oGQmaV21raZZgVl0W74AbDpq5buNjwOXH99MORJTVXHKik000gqR2l3P">
@@ -234,8 +234,8 @@ export default function IndexPage() {
                                        </div>
                                           </div>
                                           <div data-ux="ContentBasic" id="068d6353-d65b-4760-985d-b2acca673db0" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                             <div data-ux="ContentText" style="margin:0 auto;" alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                                <p style="margin:10px;"><span>Om du redan har köpt filmen, kan du titta på den eller ladda hem den <a href="stream">här</a> (kräver lösenord).</span></p>
+                                             <div data-ux="ContentText" style={{margin: '0 auto'}} alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
+                                                <p style={{margin: '10px'}}><span>Om du redan har köpt filmen, kan du titta på den eller ladda hem den <a href="stream">här</a> (kräver lösenord).</span></p>
                                              </div>
                                           </div>
                                     </div>
@@ -260,7 +260,7 @@ export default function IndexPage() {
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-9u c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-9v c1-e c1-f c1-g">
                                     <div data-ux="ContentBasic" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_MEDIA_DESCRIPTION1_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <div style="margin:0">
+                                          <div style={{margin: '0'}}>
                                           <ul>
                                              <li>Philomène Grandin – Mira</li>
                                              <li>Anders Linder – Peo</li>
@@ -281,7 +281,7 @@ export default function IndexPage() {
                                  </div>
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-9w c1-6k c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8a c1-8b c1-9x c1-9y c1-e c1-f c1-g">
                                     <div data-ux="Block" className="x-el x-el-div c1-1 c1-2 c1-6k c1-b c1-c c1-d c1-e c1-f c1-g"><span data-ux="Element" className="x-el x-el-span c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                       <img style="object-fit: cover;" src="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg" data-srclazy="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg" srcSet="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg 400w, 
+                                       <img style={{objectFit: 'cover'}} src="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg" data-srclazy="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg" srcSet="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg 400w, 
                                                assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg 800w, 
                                                assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg 1200w" sizes="(max-width: 400px) 90vw, 
                                               (max-width: 800px) 80vw, 
@@ -317,7 +317,7 @@ export default function IndexPage() {
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-9u c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-9v c1-e c1-f c1-g">
                                     <div data-ux="ContentBasic" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_MEDIA_DESCRIPTION1_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-a1 c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <div style="margin:0">
+                                          <div style={{margin: '0'}}>
                                           <ul>
                                              <li>Martin Fallhagen – manus</li>
                                              <li>Tomas Norström – manusassistent</li>
@@ -379,27 +379,27 @@ export default function IndexPage() {
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-8h c1-8i c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-e c1-f c1-g">
                                     <div data-ux="ContentBasic" id="5fb00c11-5929-4f0a-8695-428dca83fdf5" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION1_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Redan 2019 presenterade Martin Fallhagen sitt filmmanus till novellfilmen ”Jorden Anropar” för sin vän och filmkollega Tomas Norström. Tillsammans med då projektanställde producenten Casper Andreas bearbetade de manuset. Ambitionen var att filma under sommaren 2020. Men då var Coronapandemin redan här och inspelningarna fick skjutas på framtiden.</span></p>
+                                          <p style={{margin: '0'}}><span>Redan 2019 presenterade Martin Fallhagen sitt filmmanus till novellfilmen ”Jorden Anropar” för sin vän och filmkollega Tomas Norström. Tillsammans med då projektanställde producenten Casper Andreas bearbetade de manuset. Ambitionen var att filma under sommaren 2020. Men då var Coronapandemin redan här och inspelningarna fick skjutas på framtiden.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="ContentBasic" id="4536a171-4387-4ea7-9465-56d04e416e2b" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION2_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Våren 2021 drabbades Tomas Norström av en obotlig cancer och i oktober samma år gick han bort i sviterna av sin cancer. Sorgen och saknaden efter honom var stor och det skulle dröja ända fram till julen 2022 innan Martin Fallhagen orkade väcka filmplanerna på nytt. Men då hade huvudfinansiärerna försvunnit och den största delen av filmprojektet fick finansieras genom egna sparpengar och privata banklån. Men filmen skulle färdigställas och såväl Film i Dalarna som Film i Uppland stöttade projektet tillsammans med några privata vård- och skolbolag.</span></p>
+                                          <p style={{margin: '0'}}><span>Våren 2021 drabbades Tomas Norström av en obotlig cancer och i oktober samma år gick han bort i sviterna av sin cancer. Sorgen och saknaden efter honom var stor och det skulle dröja ända fram till julen 2022 innan Martin Fallhagen orkade väcka filmplanerna på nytt. Men då hade huvudfinansiärerna försvunnit och den största delen av filmprojektet fick finansieras genom egna sparpengar och privata banklån. Men filmen skulle färdigställas och såväl Film i Dalarna som Film i Uppland stöttade projektet tillsammans med några privata vård- och skolbolag.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="ContentBasic" id="c4d3b8c6-a95c-4277-8b38-888d8b865c7d" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Inspelningen av "Jorden Anropar" påbörjades i början av augusti 2023 i Ystad. Delar av novellfilmen spelades in i samma studio som "Vid Vintergatans Slut". Martin Fallhagen har som första filmskapare fått tillstånd att producera film med sitt filmteam i rymdskeppet som finns i Ystad Studios.</span></p>
+                                          <p style={{margin: '0'}}><span>Inspelningen av "Jorden Anropar" påbörjades i början av augusti 2023 i Ystad. Delar av novellfilmen spelades in i samma studio som "Vid Vintergatans Slut". Martin Fallhagen har som första filmskapare fått tillstånd att producera film med sitt filmteam i rymdskeppet som finns i Ystad Studios.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="ContentBasic" id="cffd9235-73c5-4607-8350-1ccb4f05be54" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION4_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>Produktionen involverade ett dedikerat team med talangfulla medarbetare, inklusive Martin Fallhagen som manusförfattare och regissör, samt Johan Bodin som filmare och bildregissör. Under produktionens gång genomfördes location scoutning i Ystad, Uppsala, Stockholm och Dalarna för att hitta lämpliga platser för inspelningen. Inspelningsarbetet var fördelat över flera veckor och inkluderade även inspelningar i Uppsala, Ludvika och Stockholm.</span></p>
+                                          <p style={{margin: '0'}}><span>Produktionen involverade ett dedikerat team med talangfulla medarbetare, inklusive Martin Fallhagen som manusförfattare och regissör, samt Johan Bodin som filmare och bildregissör. Under produktionens gång genomfördes location scoutning i Ystad, Uppsala, Stockholm och Dalarna för att hitta lämpliga platser för inspelningen. Inspelningsarbetet var fördelat över flera veckor och inkluderade även inspelningar i Uppsala, Ludvika och Stockholm.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="ContentBasic" id="4ab6124b-0604-4cc9-a47b-86fe2346ec66" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                                        <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION5_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:0"><span>"Jorden Anropar" är en gripande film om vänskap, mod och att följa sina drömmar och den utforskar teman som tillhörighet och längtan efter äventyr. Med en imponerande ensemble av skådespelare och en fängslande berättelse tar filmen oss med på en oförglömlig resa genom rymden och mänskliga känslor. Filmen tillägnas vännen och skådespelaren Tomas Norström.</span></p>
+                                          <p style={{margin: '0'}}><span>"Jorden Anropar" är en gripande film om vänskap, mod och att följa sina drömmar och den utforskar teman som tillhörighet och längtan efter äventyr. Med en imponerande ensemble av skådespelare och en fängslande berättelse tar filmen oss med på en oförglömlig resa genom rymden och mänskliga känslor. Filmen tillägnas vännen och skådespelaren Tomas Norström.</span></p>
                                        </div>
                                     </div>
                                  </div>
@@ -412,7 +412,7 @@ export default function IndexPage() {
                <div id="13b80a2d-e9ef-4d7a-a9c2-2c6a5e1a15a7" className="widget widget-content widget-content-content-6">
                   <div data-ux="Widget" role="region" id="13b80a2d-e9ef-4d7a-a9c2-2c6a5e1a15a7" className="x-el x-el-div x-el c1-1 c1-2 c1-9p c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
                      <div>
-                        <section data-ux="Section" className="x-el x-el-section c1-1 c1-2 c1-9p c1-i c1-j c1-b c1-c c1-m c1-n c1-d c1-e c1-f c1-g" style="background-color: rgb(227, 235, 247);">
+                        <section data-ux="Section" className="x-el x-el-section c1-1 c1-2 c1-9p c1-i c1-j c1-b c1-c c1-m c1-n c1-d c1-e c1-f c1-g" style={{backgroundColor: 'rgb(227, 235, 247)'}}>
                            <div data-ux="Container" className="x-el x-el-div c1-1 c1-2 c1-5w c1-5x c1-45 c1-46 c1-4z c1-b c1-c c1-6c c1-d c1-6d c1-e c1-6i c1-f c1-6j c1-g">
                               <h2 role="heading" aria-level="2" data-ux="SectionHeading" data-aid="CONTENT_SECTION_TITLE_RENDERED" data-typography="HeadingBeta" className="x-el x-el-h2 c1-1 c1-2 c1-4t c1-4j c1-7e c1-5w c1-4d c1-33 c1-7f c1-6k c1-4m c1-76 c1-7g c1-6x c1-77 c1-6q c1-6f c1-78 c1-79 c1-7a">
                                  <span data-ux="Element" className="x-el x-el-span c1-7h c1-7i c1-7j c1-7k c1-7l">Följ oss</span>
@@ -423,8 +423,8 @@ export default function IndexPage() {
                               <div data-ux="Grid" className="x-el x-el-div c1-1 c1-2 c1-t c1-7r c1-7s c1-7t c1-33 c1-7u c1-4e c1-7v c1-4h c1-69 c1-b c1-c c1-7w c1-7x c1-7y c1-7z c1-d c1-e c1-f c1-g">
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-8h c1-8i c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-e c1-f c1-g">
                                     <div data-ux="ContentBasic" id="068d6353-d65b-4760-985d-b2acca673db0" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                       <div data-ux="ContentText" style="margin:0 auto;" alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                          <p style="margin:10px;"><span>Följ nyheter på Facebook om vad som händer med filmen Jorden Anropar</span></p>
+                                       <div data-ux="ContentText" style={{margin: '0 auto'}} alignment="left" data-aid="CONTENT_DESCRIPTION3_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
+                                          <p style={{margin: '10px'}}><span>Följ nyheter på Facebook om vad som händer med filmen Jorden Anropar</span></p>
                                           <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-36 c1-37 c1-38 c1-69 c1-b c1-c c1-d c1-b4 c1-b5 c1-e c1-f c1-g">
                                              <div data-ux="Block" data-aid="FOOTER_SOCIAL_LINKS" className="x-el x-el-div c1-1 c1-2 c1-t c1-69 c1-b7 c1-b8 c1-b9 c1-ba c1-7t c1-bb c1-bc c1-b c1-c c1-d c1-e c1-f c1-g">
                                                 <a rel="noopener" role="link" aria-haspopup="true" data-ux="Link" target="_blank" data-aid="FOOTER_FACEBOOK_LINK" aria-label="Social medielänk för Facebook" href="https://www.facebook.com/p/FallhagenFilm-100063805215260/" data-typography="LinkAlpha" className="x-el x-el-a c1-4q c1-4r c1-4s c1-4t c1-4j c1-4u c1-3c c1-bd c1-b c1-be c1-c c1-51 c1-bf c1-bg c1-d c1-e c1-f c1-g" data-tccl="ux2.FOOTER.footer2.Layout.Default.Link.Default.163616.click,click">
@@ -467,59 +467,59 @@ export default function IndexPage() {
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">1 / 11</div>
                                                     <img src="assets/jordenanropar/Anna-och-Martin-regisserar2.jpg" alt="Anna och Martin regisserar"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Anna och Martin regisserar</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Anna och Martin regisserar</div>
                                                   </div>
                                                 
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">2 / 11</div>
                                                     <img src="assets/jordenanropar/Filmaffischen.jpeg" alt="Filmaffischen"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Filmaffischen</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Filmaffischen</div>
                                                   </div>
                                                   
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">3 / 11</div>
                                                     <img src="assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg" alt="Fin bild i rymdskeppet"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Fin bild i rymdskeppet</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Fin bild i rymdskeppet</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">4 / 11</div>
                                                     <img src="assets/jordenanropar/Ystad-julbild-21B.jpg" alt="Ystad julbild"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Ystad julbild</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Ystad julbild</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">5 / 11</div>
                                                     <img src="assets/jordenanropar/Ystad-julbild-4.jpg" alt="Ystad julbild"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Ystad julbild</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Ystad julbild</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">6 / 11</div>
                                                     <img src="assets/jordenanropar/Johan-Philomene-Lasse-och-Martin-pa-stranden.jpeg" alt="Johan Philomene Lasse och Martin på stranden"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Johan Philomene Lasse och Martin på stranden</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Johan Philomene Lasse och Martin på stranden</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">7 / 11</div>
                                                     <img src="assets/jordenanropar/Kalle-och-Mira.jpeg" alt="Kalle och Mira"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Kalle och Mira</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Kalle och Mira</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">8 / 11</div>
                                                     <img src="assets/jordenanropar/Martin-laser-shot-list-i-Ludvika.jpg" alt="Martin läser shot list i Ludvika"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Martin läser shot list i Ludvika</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Martin läser shot list i Ludvika</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">9 / 11</div>
                                                     <img src="assets/jordenanropar/Martin-och-Victor.jpg" alt="Martin och Victor"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Martin och Victor</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Martin och Victor</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">10 / 11</div>
                                                     <img src="assets/jordenanropar/Mira-och-Bjorn.jpeg" alt="Mira och Björn"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Mira och Björn</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Mira och Björn</div>
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">11 / 11</div>
                                                     <img src="assets/jordenanropar/Tomas-Norström-portratt.jpeg" alt="Tomas Norström"/>
-                                                    <div className="text" style="color: gray; padding: 10px">Tomas Norström</div>
+                                                    <div className="text" style={{color: 'gray', padding: '10px'}}>Tomas Norström</div>
                                                   </div>
                                                     {/* Next and previous buttons */}
                                        <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
@@ -528,7 +528,7 @@ export default function IndexPage() {
                                      <br/>
                                      
                                      {/* The dots/circles */}
-                                     <div style="text-align:center">
+                                     <div style={{textAlign: 'center'}}>
                                        <span className="dot" onClick={() => currentSlide(1)}></span>
                                        <span className="dot" onClick={() => currentSlide(2)}></span>
                                        <span className="dot" onClick={() => currentSlide(3)}></span>
@@ -566,7 +566,7 @@ export default function IndexPage() {
                               <div data-ux="Grid" className="x-el x-el-div c1-1 c1-2 c1-t c1-7r c1-7s c1-7t c1-33 c1-7u c1-a6 c1-7v c1-b c1-c c1-7w c1-7x c1-a7 c1-7z c1-d c1-e c1-f c1-g">
                                  <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-9r c1-4z c1-35 c1-82 c1-44 c1-83 c1-b c1-c c1-b0 c1-84 c1-85 c1-86 c1-87 c1-a8 c1-89 c1-d c1-b1 c1-8j c1-8k c1-e c1-f c1-g">
                                     <div data-ux="Text" data-aid="PRIVACY_CONTENT_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt">
-                                       <p style="margin:0"><span><strong className="x-el x-el-span c1-4q c1-4r c1-b c1-9k c1-7i c1-59 c1-9l">Jorden Anropar som personuppgiftsansvarig för dina personuppgifter</strong><br/>
+                                       <p style={{margin: '0'}}><span><strong className="x-el x-el-span c1-4q c1-4r c1-b c1-9k c1-7i c1-59 c1-9l">Jorden Anropar som personuppgiftsansvarig för dina personuppgifter</strong><br/>
                                           Vi värnar våra användares integritet. Vi vet också att användning av personuppgifter är nyckeln till att leverera den produkt som våra användare förväntar sig. Vi använder
                                           personuppgifter för att förbättra de produkter och tjänster som vi erbjuder. Vi på Jorden Anropar är ansvariga för behandlingen av våra användares personuppgifter.
                                           <br/>
@@ -590,7 +590,7 @@ export default function IndexPage() {
                                  <div data-ux="Grid" className="x-el x-el-div c1-1 c1-2 c1-t c1-7r c1-7s c1-7t c1-33 c1-4d c1-4e c1-4f c1-u c1-6k c1-b c1-c c1-d c1-e c1-f c1-g">
                                     <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-b3 c1-80 c1-81 c1-4z c1-35 c1-36 c1-37 c1-38 c1-b c1-c c1-d c1-b4 c1-b5 c1-e c1-f c1-g">
                                        <div data-ux="FooterDetails" data-aid="FOOTER_COPYRIGHT_RENDERED" data-typography="DetailsAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-b c1-b6 c1-al c1-6x c1-ar c1-9y c1-aw c1-ay c1-az x-rt">
-                                          <p style="margin:0"><span>Copyright © 2024 Firma Lars Nohrstedt - Med ensamrätt.</span></p>
+                                          <p style={{margin: '0'}}><span>Copyright © 2024 Firma Lars Nohrstedt - Med ensamrätt.</span></p>
                                        </div>
                                     </div>
                                     <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-36 c1-37 c1-38 c1-69 c1-b c1-c c1-d c1-b4 c1-b5 c1-e c1-f c1-g">
@@ -616,7 +616,7 @@ export default function IndexPage() {
                   <div data-ux="Group" data-aid="FOOTER_COOKIE_BANNER_RENDERED" id="f29c4e99-e406-4ffe-abf4-08c06e811c0f-banner" className="x-el x-el-div c1-1 c1-2 c1-bn c1-3v c1-bx c1-4 c1-by c1-4h c1-bu c1-8f c1-bz c1-c0 c1-c1 c1-c2 c1-c3 c1-43 c1-46 c1-44 c1-45 c1-33 c1-4d c1-4e c1-4f c1-39 c1-b c1-c c1-c4 c1-c5 c1-c6 c1-c7 c1-c8 c1-c9 c1-ca c1-d c1-e c1-f c1-g">
                      <h4 role="heading" aria-level="4" data-ux="Heading" data-aid="FOOTER_COOKIE_TITLE_RENDERED" data-typography="HeadingDelta" className="x-el x-el-h4 c1-1 c1-2 c1-4t c1-4j c1-cb c1-4f c1-4d c1-33 c1-4e c1-ak c1-b c1-6w c1-58 c1-6x c1-cc c1-cd c1-ce c1-cf">Den här webbplatsen använder cookies.</h4>
                      <div data-ux="Text" data-aid="FOOTER_COOKIE_MESSAGE_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-cg c1-bz c1-b c1-6w c1-c c1-6x c1-ch c1-d c1-e c1-f c1-g x-rt">
-                        <p style="margin:0"><span>Vi använder cookies för att analysera webbplatstrafik och optimera din webbplatsupplevelse. Genom att acceptera vår användning av cookies kommer dina data att aggregeras med alla andra användardata.</span></p>
+                        <p style={{margin: '0'}}><span>Vi använder cookies för att analysera webbplatstrafik och optimera din webbplatsupplevelse. Genom att acceptera vår användning av cookies kommer dina data att aggregeras med alla andra användardata.</span></p>
                      </div>
                      <div data-ux="Block" className="x-el x-el-div c1-1 c1-2 c1-t c1-v c1-b c1-c c1-d c1-e c1-f c1-g"><a data-ux-btn="primary" data-ux="ButtonPrimary" color="HIGHCONTRAST" href="" data-aid="FOOTER_COOKIE_DECLINE_RENDERED" id="f29c4e99-e406-4ffe-abf4-08c06e811c0f-decline" data-typography="ButtonAlpha" className="x-el x-el-a c1-ci c1-55 c1-t c1-w c1-69 c1-3c c1-7p c1-3k c1-cj c1-ck c1-68 c1-cl c1-u c1-6k c1-4s c1-4j c1-4t c1-o c1-4z c1-4 c1-cm c1-cn c1-co c1-cp c1-cq c1-cr c1-cs c1-3 c1-b c1-59 c1-12 c1-ct c1-cu c1-cv c1-cw c1-cx c1-cy c1-cz c1-d0" data-tccl="ux2.COOKIE_BANNER.cookie1.Group.Default.Button.Primary.163618.click,click">Neka</a><a data-ux-btn="primary" data-ux="ButtonPrimary" color="HIGHCONTRAST" href="" data-aid="FOOTER_COOKIE_CLOSE_RENDERED" id="f29c4e99-e406-4ffe-abf4-08c06e811c0f-accept" data-typography="ButtonAlpha" className="x-el x-el-a c1-ci c1-55 c1-t c1-w c1-69 c1-3c c1-7p c1-3k c1-cj c1-ck c1-68 c1-cl c1-u c1-6k c1-4s c1-4j c1-4t c1-o c1-4z c1-4 c1-cm c1-cn c1-co c1-cp c1-cq c1-cr c1-cs c1-3 c1-b c1-59 c1-12 c1-ct c1-cu c1-cv c1-cw c1-cx c1-cy c1-cz c1-d0" data-tccl="ux2.COOKIE_BANNER.cookie1.Group.Default.Button.Primary.163619.click,click">Acceptera</a></div>
                   </div>
