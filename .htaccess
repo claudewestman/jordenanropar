@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+ <FilesMatch "stream.html">
+ AuthName "Lösenord krävs"
+ AuthType Basic
+ AuthUserFile /home/wedevelopsweden/public_html/.htpasswd
+ require valid-user
+ </FilesMatch>
