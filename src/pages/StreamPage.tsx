@@ -118,19 +118,6 @@ export default function StreamPage() {
                            </h2>
                            <div data-ux="Grid" className="x-el x-el-div c1-1 c1-2 c1-t c1-7r c1-7s c1-7t c1-33 c1-7u c1-4e c1-7v c1-4h c1-69 c1-b c1-c c1-7w c1-7x c1-7y c1-7z c1-d c1-e c1-f c1-g">
                               <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-8h c1-8i c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-e c1-f c1-g">
-                                 <div data-ux="ContentBasic" id="5fb00c11-5929-4f0a-8695-428dca83fdf5" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                    <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION1_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt" style={{margin: 'auto'}}>
-                                       <p style={{margin: '0'}}><span>Du kan också ladda hem filmen till din dator. Du laddar hem filmen genom att klicka på länken nedan.</span></p>
-                                    </div>
-                                 </div>
-                                 <div data-ux="ContentBasic" id="4ab6124b-0604-4cc9-a47b-86fe2346ec66" className="x-el x-el-div x-el c1-1 c1-2 c1-t c1-w c1-4 c1-8l c1-8m c1-4h c1-8n c1-8i c1-b c1-c c1-8o c1-8p c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                    <div data-ux="ContentText" alignment="left" data-aid="CONTENT_DESCRIPTION2_RENDERED" data-typography="BodyAlpha" className="x-el c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-8z c1-90 c1-91 c1-92 c1-93 c1-94 c1-95 c1-96 c1-97 c1-98 c1-99 c1-9a c1-9b c1-9c c1-9d c1-9e c1-9f c1-9g c1-9h c1-9i c1-68 c1-b c1-9j c1-c c1-6x c1-d c1-e c1-f c1-g x-rt" style={{margin: 'auto'}}>
-                                       <a className="c1-9j" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}} href="videos/ja.mp4" download>
-                                          <img style={{width: '160px'}} src="assets/jordenanropar/Filmaffischen.jpeg"/>
-                                          Ladda hem Jorden Anropar (.mp4) 793 MB
-                                       </a>
-                                    </div>
-                                 </div>
                               </div>
                            </div>
                         </div>

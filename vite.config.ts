@@ -10,6 +10,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        jordenanropar: resolve(__dirname, 'jordenanropar.html'),
+        narlillakalle: resolve(__dirname, 'narlillakalle.html'),
         stream: resolve(__dirname, 'stream.html'),
       },
     },
