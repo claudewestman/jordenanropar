@@ -1,5 +1,6 @@
 // @ts-nocheck
 import { useState, useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function JordenanroparPage() {
   const [, setSlideIndex] = useState(1);
@@ -64,6 +65,14 @@ export default function JordenanroparPage() {
   }, []);
 
   return (
+<>
+<Helmet>
+  <title>Jorden Anropar - Fallhagen Film</title>
+  <meta name="description" content="Jorden Anropar är en stjärnspäckad äventyrs-scifi film av Martin Fallhagen och Tomas Norström, fylld med hjärta, skratt och allvar. Upptäck berättelsen om rymdhjälten Mira och hennes vän Kalle." />
+  <meta property="og:title" content="Jorden Anropar - Fallhagen Film" />
+  <meta property="og:description" content="Jorden Anropar är en stjärnspäckad äventyrs-scifi film av Martin Fallhagen och Tomas Norström. Upptäck berättelsen om rymdhjälten Mira och hennes vän Kalle." />
+  <meta property="og:image" content="https://jordenanropar.se/assets/jordenanropar/Fin-bild-i-rymdskeppet.jpg" />
+</Helmet>
 <div id="layout-040-dcbec-136-f-4-b-20-b-24-f-b-1-dbfe-4-acc-5-f" className="layout layout-layout layout-layout-layout-13 locale-sv-SE lang-sv">
          <div id="page-163597" className="c1-1 c1-2 c1-3 c1-4 c1-5 c1-6 c1-7 c1-8 c1-9 c1-a c1-b c1-c c1-d c1-e c1-f c1-g">
             <div className="page-inner">
@@ -446,7 +455,7 @@ export default function JordenanroparPage() {
                                                   </div>
                                                   <div className="mySlides fade">
                                                     <div className="numbertext">11 / 11</div>
-                                                    <img src="assets/jordenanropar/Tomas-Norström-portratt.jpeg" alt="Tomas Norström"/>
+                                                    <img src="assets/jordenanropar/Tomas-Norstrom-portratt.jpeg" alt="Tomas Norström"/>
                                                     <div className="text" style={{color: 'gray', padding: '10px'}}>Tomas Norström</div>
                                                   </div>
                                                     {/* Next and previous buttons */}
@@ -516,5 +525,6 @@ export default function JordenanroparPage() {
                </div>
             </div>
          </div>
+</>
   );
 }

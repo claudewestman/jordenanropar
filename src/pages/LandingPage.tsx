@@ -1,4 +1,7 @@
-// @ts-nocheck
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+import Header from '../components/Header';
+
 export default function LandingPage() {
   return (
     <div style={{
@@ -9,60 +12,80 @@ export default function LandingPage() {
       display: 'flex',
       flexDirection: 'column',
     }}>
+      <Helmet>
+        <title>Fallhagen Film</title>
+        <meta name="description" content="Fallhagen Film – kortfilmer av Martin Fallhagen. Se Jorden Anropar och När lilla Kalle blev en rymdhjälte." />
+        <meta property="og:title" content="Fallhagen Film" />
+        <meta property="og:description" content="Kortfilmer av Martin Fallhagen – Jorden Anropar och När lilla Kalle blev en rymdhjälte." />
+        <meta property="og:image" content="https://jordenanropar.se/assets/jordenanropar/Filmaffischen.jpeg" />
+      </Helmet>
       <style>{`
         .film-card {
           background: #222;
           border: 1px solid #333;
-          border-radius: 4px;
+          border-radius: 8px;
           overflow: hidden;
           text-decoration: none;
           color: inherit;
           display: flex;
           flex-direction: column;
-          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                      box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                      border-color 0.3s ease;
           width: 100%;
           max-width: 380px;
         }
         .film-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+          transform: translateY(-6px) scale(1.02);
+          box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(201, 184, 154, 0.2);
+          border-color: rgba(201, 184, 154, 0.3);
         }
         .film-card img {
           width: 100%;
           aspect-ratio: 2/3;
           object-fit: cover;
           display: block;
+          transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .film-card:hover img {
+          transform: scale(1.03);
         }
         .film-card-body {
-          padding: 20px;
+          padding: 24px;
           flex: 1;
           display: flex;
           flex-direction: column;
         }
         .film-card-title {
-          font-size: 1.2rem;
-          font-weight: 700;
-          margin: 0 0 8px 0;
+          font-size: 1.25rem;
+          font-weight: 600;
+          margin: 0 0 10px 0;
           line-height: 1.3;
         }
         .film-card-tagline {
-          font-size: 0.85rem;
-          color: #aaa;
+          font-size: 0.9rem;
+          color: #b0b0b0;
           font-family: 'Source Sans Pro', sans-serif;
-          margin: 0 0 16px 0;
+          margin: 0 0 18px 0;
           flex: 1;
+          line-height: 1.5;
         }
         .film-card-link {
           font-size: 0.9rem;
           font-family: 'Source Sans Pro', sans-serif;
           color: #c9b89a;
           text-decoration: none;
-          letter-spacing: 0.05em;
+          letter-spacing: 0.06em;
+          font-weight: 500;
+          transition: color 0.2s ease;
+        }
+        .film-card:hover .film-card-link {
+          color: #e0d4c0;
         }
         .films-grid {
           display: flex;
           flex-wrap: wrap;
-          gap: 32px;
+          gap: 40px;
           justify-content: center;
         }
         @media (max-width: 480px) {
@@ -72,31 +95,7 @@ export default function LandingPage() {
         }
       `}</style>
 
-      {/* Header */}
-      <header style={{
-        textAlign: 'center',
-        padding: '60px 24px 40px',
-        borderBottom: '1px solid #333',
-      }}>
-        <h1 style={{
-          fontSize: 'clamp(1.6rem, 5vw, 2.8rem)',
-          fontWeight: 400,
-          letterSpacing: '0.12em',
-          margin: '0 0 10px 0',
-          textTransform: 'uppercase',
-        }}>
-          Fallhagen Film
-        </h1>
-        <p style={{
-          fontFamily: "'Source Sans Pro', sans-serif",
-          fontSize: '1rem',
-          color: '#aaa',
-          margin: 0,
-          letterSpacing: '0.04em',
-        }}>
-          Kortfilmer av Martin Fallhagen
-        </p>
-      </header>
+      <Header />
 
       {/* Film cards */}
       <main style={{
@@ -108,10 +107,13 @@ export default function LandingPage() {
         boxSizing: 'border-box',
       }}>
         <div className="films-grid">
-          <a href="/jordenanropar.html" className="film-card">
+          <Link to="/jordenanropar" className="film-card">
             <img
               src="/assets/jordenanropar/Filmaffischen.jpeg"
               alt="Filmaffisch – Jorden Anropar"
+              loading="lazy"
+              width="380"
+              height="570"
             />
             <div className="film-card-body">
               <h2 className="film-card-title">Jorden Anropar</h2>
@@ -120,12 +122,15 @@ export default function LandingPage() {
               </p>
               <span className="film-card-link">Läs mer →</span>
             </div>
-          </a>
+          </Link>
 
-          <a href="/narlillakalle.html" className="film-card">
+          <Link to="/narlillakalle" className="film-card">
             <img
               src="/assets/narlillakalleblevrymdhjalte/FilmaffischForslag2.jpg"
               alt="Filmaffisch – När lilla Kalle blev en rymdhjälte"
+              loading="lazy"
+              width="380"
+              height="570"
             />
             <div className="film-card-body">
               <h2 className="film-card-title">När lilla Kalle blev en rymdhjälte</h2>
@@ -134,7 +139,7 @@ export default function LandingPage() {
               </p>
               <span className="film-card-link">Läs mer →</span>
             </div>
-          </a>
+          </Link>
         </div>
       </main>
 

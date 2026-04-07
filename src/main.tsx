@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import StreamPage from './pages/StreamPage'
+import App from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <StreamPage />
+    <App />
   </StrictMode>
 )
