@@ -4,7 +4,8 @@
       "Bash(python3 -)",
       "Bash(npm run:*)",
       "Bash(grep -v \"^$\")",
-      "Bash(cat vite.config.*)"
+      "Bash(cat vite.config.*)",
+      "Bash(cat tsconfig*.json)"
     ]
   }
 }
