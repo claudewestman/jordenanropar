@@ -4,7 +4,7 @@ import { resolve } from 'node:path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/jordenanropar/',
+  base: '/',
   build: {
     outDir: 'dist',
     rollupOptions: {
