@@ -3,7 +3,8 @@
     "allow": [
       "Bash(python3 -)",
       "Bash(npm run:*)",
-      "Bash(grep -v \"^$\")"
+      "Bash(grep -v \"^$\")",
+      "Bash(cat vite.config.*)"
     ]
   }
 }
