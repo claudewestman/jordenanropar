@@ -211,6 +211,7 @@ const galleryImages = [
   { src: 'assets/narlillakalleblevrymdhjalte/Martinregisserar.jpg', alt: 'Martin regisserar' },
   { src: 'assets/narlillakalleblevrymdhjalte/MiraochlillaKalleirymdskeppet.jpg', alt: 'Mira och lilla Kalle i rymdskeppet' },
   { src: 'assets/narlillakalleblevrymdhjalte/AndersLinderochMartin.jpeg', alt: 'Anders Linder och Martin' },
+  { src: 'assets/narlillakalleblevrymdhjalte/fub.jpg', alt: 'FUB' },
 ];
 
 const cast = [

@@ -1,18 +1,31 @@
+import { CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+const styles: Record<string, CSSProperties> = {
+  page: {
+    minHeight: '100vh',
+    backgroundColor: '#1a1a1a',
+    color: '#f0ede8',
+    fontFamily: "'Playfair Display', Georgia, serif",
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  main: {
+    flex: 1,
+    padding: '60px 24px',
+    maxWidth: '900px',
+    margin: '0 auto',
+    width: '100%',
+    boxSizing: 'border-box' as const,
+  },
+};
+
 export default function LandingPage() {
   return (
-    <div style={{
-      minHeight: '100vh',
-      backgroundColor: '#1a1a1a',
-      color: '#f0ede8',
-      fontFamily: "'Playfair Display', Georgia, serif",
-      display: 'flex',
-      flexDirection: 'column',
-    }}>
+    <div style={styles.page}>
       <Helmet>
         <title>Fallhagen Film</title>
         <meta name="description" content="Fallhagen Film – kortfilmer av Martin Fallhagen. Se Jorden Anropar och När lilla Kalle blev en rymdhjälte." />
@@ -103,15 +116,7 @@ export default function LandingPage() {
       <a href="#main-content" className="skip-link">Hoppa till innehåll</a>
       <Header />
 
-      {/* Film cards */}
-      <main id="main-content" style={{
-        flex: 1,
-        padding: '60px 24px',
-        maxWidth: '900px',
-        margin: '0 auto',
-        width: '100%',
-        boxSizing: 'border-box',
-      }}>
+      <main id="main-content" style={styles.main}>
         <div className="films-grid">
           <Link to="/narlillakalleblevrymdhjalte" className="film-card">
             <img
