@@ -448,7 +448,7 @@ export default function JordenanroparPage() {
                 />
               </div>
               <p style={{...styles.text, marginTop: '1.5rem'}}>
-                Om du redan har köpt filmen, kan du titta på den eller ladda hem den{' '}
+                Om du redan har köpt filmen, kan du titta på den{' '}
                 <a href="/stream" style={{ color: 'rgb(208, 191, 0)' }}>här</a> (kräver lösenord).
               </p>
             </div>
