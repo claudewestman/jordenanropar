@@ -219,8 +219,10 @@ const cast = [
   { actor: 'Philomène Grandin', role: 'Mira' },
   { actor: 'Anders Linder', role: 'Peo' },
   { actor: 'Jonas Kruse', role: 'Berra' },
-  { actor: 'Tina Fallhagen', role: 'Kalles mamma' },
+  { actor: 'Philomène Grandin', role: 'Kalles mamma' },
   { actor: 'Lasse Nohrstedt', role: 'Berättarröst' },
+  { actor: 'Kristoffer Ölund', role: 'Polisman Valdemar' },
+  { actor: 'Anna Sandin', role: 'Inspelningsledare' },
 ];
 
 export default function NarLillaKallePage() {
