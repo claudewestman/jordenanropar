@@ -225,6 +225,15 @@ const cast = [
   { actor: 'Anna Sandin', role: 'Inspelningsledare' },
 ];
 
+const gulaVastarna = [
+  'Terese Jansson',
+  'Björn Pallin',
+  'Kristoffer Morath',
+  'Agnes Sandin',
+  'Isabelle Steen',
+  'Martin Fallhagen',
+];
+
 export default function NarLillaKallePage() {
   const [slideIndex, setSlideIndex] = useState(0);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -424,13 +433,23 @@ export default function NarLillaKallePage() {
             <hr style={styles.divider} aria-hidden="true" />
           </div>
           <div style={styles.grid}>
-            <ul style={styles.castList}>
-              {cast.map(({ actor, role }) => (
-                <li key={actor} style={styles.castItem}>
-                  <strong>{actor}</strong> – {role}
-                </li>
-              ))}
-            </ul>
+            <div>
+              <ul style={styles.castList}>
+                {cast.map(({ actor, role }) => (
+                  <li key={actor} style={styles.castItem}>
+                    <strong>{actor}</strong> – {role}
+                  </li>
+                ))}
+              </ul>
+              <h3 style={{ ...styles.sectionTitle, fontSize: '1.3rem', marginTop: '2rem', marginBottom: '1rem', textAlign: 'left' }}>Gula västarna</h3>
+              <ul style={styles.castList}>
+                {gulaVastarna.map((name) => (
+                  <li key={name} style={styles.castItem}>
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div style={{ textAlign: 'center' }}>
               <img
                 src="assets/narlillakalleblevrymdhjalte/MiraochlillaKalleirymdskeppet.jpg"
