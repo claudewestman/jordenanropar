@@ -110,16 +110,6 @@ export default function StreamPage() {
                                  </div>
                               </div>
                            </div>
-                           <h2 role="heading" aria-level="2" data-ux="SectionHeading" data-aid="CONTENT_SECTION_TITLE_RENDERED" data-typography="HeadingBeta" className="x-el x-el-h2 c1-1 c1-2 c1-4t c1-4j c1-7e c1-5w c1-4d c1-33 c1-7f c1-6k c1-4m c1-76 c1-7g c1-6x c1-77 c1-6q c1-6f c1-78 c1-79 c1-7a">
-                              <span data-ux="Element" className="x-el x-el-span c1-7h c1-7i c1-7j c1-7k c1-7l">Ladda hem filmen</span>
-                              <div data-ux="Block" className="x-el x-el-div c1-4 c1-7m c1-4m c1-76 c1-77 c1-78 c1-79 c1-7a">
-                                 <hr aria-hidden="true" role="separator" data-ux="SectionHeadingHR" className="x-el x-el-hr c1-7n c1-7o c1-3f c1-7p c1-4e c1-7q c1-3b c1-4m c1-76 c1-77 c1-78 c1-79 c1-7a"/>
-                              </div>
-                           </h2>
-                           <div data-ux="Grid" className="x-el x-el-div c1-1 c1-2 c1-t c1-7r c1-7s c1-7t c1-33 c1-7u c1-4e c1-7v c1-4h c1-69 c1-b c1-c c1-7w c1-7x c1-7y c1-7z c1-d c1-e c1-f c1-g">
-                              <div data-ux="GridCell" className="x-el x-el-div c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-82 c1-37 c1-83 c1-8h c1-8i c1-b c1-c c1-84 c1-85 c1-86 c1-87 c1-88 c1-89 c1-d c1-8j c1-8k c1-e c1-f c1-g">
-                              </div>
-                           </div>
                         </div>
                      </section>
                   </div>

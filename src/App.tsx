@@ -3,6 +3,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import LandingPage from './pages/LandingPage';
 import JordenanroparPage from './pages/JordenanroparPage';
 import NarLillaKallePage from './pages/NarLillaKallePage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/jordenanropar" element={<JordenanroparPage />} />
-          <Route path="/narlillakalle" element={<NarLillaKallePage />} />
+          <Route path="/narlillakalleblevrymdhjalte" element={<NarLillaKallePage />} />
+          <Route path="/sekretesspolicy" element={<PrivacyPolicyPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

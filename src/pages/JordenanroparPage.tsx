@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { useState, useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
+import Footer from '../components/Footer';
 
 export default function JordenanroparPage() {
   const [, setSlideIndex] = useState(1);
@@ -489,40 +490,7 @@ export default function JordenanroparPage() {
                      </div>
                   </div>
                </div>
-               <section id="73419053-1186-44c0-948d-11d982a8b886" role="contentinfo" className="widget widget-footer c1-1 c1-2 c1-b2 c1-i c1-j c1-b c1-c c1-m c1-n c1-d c1-e c1-f c1-g">
-                           <div className="c1-1 c1-2 c1-5w c1-5x c1-45 c1-46 c1-4z c1-b c1-c c1-6c c1-d c1-6d c1-e c1-6i c1-f c1-6j c1-g">
-                              <div className="c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
-                                 <div className="c1-1 c1-2 c1-t c1-7r c1-7s c1-7t c1-33 c1-4d c1-4e c1-4f c1-u c1-6k c1-b c1-c c1-d c1-e c1-f c1-g">
-                                    <div className="c1-1 c1-2 c1-7r c1-b3 c1-80 c1-81 c1-4z c1-35 c1-36 c1-37 c1-38 c1-b c1-c c1-d c1-b4 c1-b5 c1-e c1-f c1-g">
-                                       <div className="c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-b c1-b6 c1-al c1-6x c1-ar c1-9y c1-aw c1-ay c1-az x-rt">
-                                          <p style={{margin: '0'}}>Copyright © 2024 Firma Lars Nohrstedt - Med ensamrätt.</p>
-                                       </div>
-                                    </div>
-                                    <div className="c1-1 c1-2 c1-7r c1-68 c1-80 c1-81 c1-4z c1-35 c1-36 c1-37 c1-38 c1-69 c1-b c1-c c1-d c1-b4 c1-b5 c1-e c1-f c1-g">
-                                       <div className="c1-1 c1-2 c1-t c1-69 c1-b7 c1-b8 c1-b9 c1-ba c1-7t c1-bb c1-bc c1-b c1-c c1-d c1-e c1-f c1-g">
-                                          <a rel="noopener" role="link" aria-haspopup="true" target="_blank" aria-label="Social medielänk för Facebook" href="https://www.facebook.com/p/FallhagenFilm-100063805215260/" className="c1-4q c1-4r c1-4s c1-4t c1-4j c1-4u c1-3c c1-bd c1-b c1-be c1-c c1-51 c1-bf c1-bg c1-d c1-e c1-f c1-g">
-                                             <svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" className="c1-1 c1-2 c1-bh c1-3b c1-8d c1-bi c1-bj c1-bk c1-bl c1-b c1-c c1-d c1-e c1-f c1-g">
-                                                <path fillRule="evenodd" d="M22 12.061C22 6.505 17.523 2 12 2S2 6.505 2 12.061c0 5.022 3.657 9.184 8.438 9.939v-7.03h-2.54v-2.91h2.54V9.845c0-2.522 1.492-3.915 3.777-3.915 1.094 0 2.238.197 2.238.197v2.476h-1.26c-1.243 0-1.63.775-1.63 1.57v1.888h2.773l-.443 2.908h-2.33V22c4.78-.755 8.437-4.917 8.437-9.939z"></path>
-                                             </svg>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div className="c1-1 c1-2 c1-7r c1-b3 c1-80 c1-81 c1-4z c1-35 c1-36 c1-37 c1-38 c1-b c1-c c1-d c1-b4 c1-b5 c1-e c1-f c1-g">
-                                       <p className="c1-1 c1-2 c1-4t c1-4j c1-8q c1-7p c1-4e c1-b c1-b6 c1-al c1-6x c1-ar c1-bm c1-6a c1-aw c1-ay c1-az">Powered by Kattbjörn</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-               </section>
-               <div id="f29c4e99-e406-4ffe-abf4-08c06e811c0f" className="widget widget-cookie-banner widget-cookie-banner-cookie-1">
-                  <div id="f29c4e99-e406-4ffe-abf4-08c06e811c0f-banner" className="c1-1 c1-2 c1-bn c1-3v c1-bx c1-4 c1-by c1-4h c1-bu c1-8f c1-bz c1-c0 c1-c1 c1-c2 c1-c3 c1-43 c1-46 c1-44 c1-45 c1-33 c1-4d c1-4e c1-4f c1-39 c1-b c1-c c1-c4 c1-c5 c1-c6 c1-c7 c1-c8 c1-c9 c1-ca c1-d c1-e c1-f c1-g">
-                     <h4 className="c1-1 c1-2 c1-4t c1-4j c1-cb c1-4f c1-4d c1-33 c1-4e c1-ak c1-b c1-6w c1-58 c1-6x c1-cc c1-cd c1-ce c1-cf">Den här webbplatsen använder cookies.</h4>
-                     <div className="c1-1 c1-2 c1-4t c1-4j c1-8q c1-33 c1-4e c1-cg c1-bz c1-b c1-6w c1-c c1-6x c1-ch c1-d c1-e c1-f c1-g x-rt">
-                        <p style={{margin: '0'}}>Vi använder cookies för att analysera webbplatstrafik och optimera din webbplatsupplevelse. Genom att acceptera vår användning av cookies kommer dina data att aggregeras med alla andra användardata.</p>
-                     </div>
-                     <div className="c1-1 c1-2 c1-t c1-v c1-b c1-c c1-d c1-e c1-f c1-g"><a data-ux-btn="primary" color="HIGHCONTRAST" href="" id="f29c4e99-e406-4ffe-abf4-08c06e811c0f-decline" className="c1-ci c1-55 c1-t c1-w c1-69 c1-3c c1-7p c1-3k c1-cj c1-ck c1-68 c1-cl c1-u c1-6k c1-4s c1-4j c1-4t c1-o c1-4z c1-4 c1-cm c1-cn c1-co c1-cp c1-cq c1-cr c1-cs c1-3 c1-b c1-59 c1-12 c1-ct c1-cu c1-cv c1-cw c1-cx c1-cy c1-cz c1-d0">Neka</a><a data-ux-btn="primary" color="HIGHCONTRAST" href="" id="f29c4e99-e406-4ffe-abf4-08c06e811c0f-accept" className="c1-ci c1-55 c1-t c1-w c1-69 c1-3c c1-7p c1-3k c1-cj c1-ck c1-68 c1-cl c1-u c1-6k c1-4s c1-4j c1-4t c1-o c1-4z c1-4 c1-cm c1-cn c1-co c1-cp c1-cq c1-cr c1-cs c1-3 c1-b c1-59 c1-12 c1-ct c1-cu c1-cv c1-cw c1-cx c1-cy c1-cz c1-d0">Acceptera</a></div>
-                  </div>
-               </div>
+               <Footer />
             </div>
          </div>
 </>
